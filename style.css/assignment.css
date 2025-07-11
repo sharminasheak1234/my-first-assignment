@@ -1,9 +1,25 @@
-body{
-   
- }
- h3{
-    
- }
+ul li{
+    list-style: none;
+
+}
+h3{
+    color: #4E47FF;
+}
+nav{
+    display:flex
+}
+.button{
+  background-color: #4E47FF;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: box;
+  font-size: 16px;
+  border-radius: 8gipx;
+}
+
 .hero-container{
     display: flex;
 

@@ -57,4 +57,36 @@ nav{
     "wdth" 100;
 }
 
- 
+/*action section*/
+
+.action{
+  display: flex;
+  justify-content: space-between;
+}
+
+ h4{
+
+font-family: Georgia,'Times New Roman',serif;
+font-style: light 300;
+font-size: 15px;
+font-weight: normal;
+
+ }
+
+.button2{
+background-color: #4E47FF;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  margin: 10px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: box;
+  font-size: 16px;
+  border-radius: 10px;
+}
+.action-image{
+  border-radius: 10px;
+  margin: 20px 10px 20px 40px;
+
+}

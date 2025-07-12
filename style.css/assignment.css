@@ -2,6 +2,9 @@ body{
     max-width: 770px;
     margin: 0 auto;
  }
+ .img{
+  background-image: url("Hero-bg.png");
+ }
 
 h3{
     color: #4E47FF;
@@ -24,11 +27,26 @@ nav{
   border-radius: 10px;
 }
 
+
 .hero-container{
+    
     align-items: center;
-    padding: 25px;
+    margin: 50px 150px 50px 200px;
+    padding: 50px;
     font-size: 1em;
 
+}
+.button1{
+  background-color: #4E47FF;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  margin: 20px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: box;
+  font-size: 16px;
+  border-radius: 10px;
 }
 
 .open-sans-normal {

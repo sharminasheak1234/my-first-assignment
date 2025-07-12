@@ -88,5 +88,56 @@ background-color: #4E47FF;
 .action-image{
   border-radius: 10px;
   margin: 20px 10px 20px 40px;
+  padding: 10px;
 
+}
+
+.section-title{
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+}
+
+/*productive section*/
+.productive{
+  border-radius: 10px;
+  background-color: aquamarine;
+  padding: 40px 60px;
+  text-align: center;
+  margin-top: 40px;
+}
+.item-title{
+  font-weight: bolder;
+  font-size: 3em;
+  margin: 30px 0px 120px 20px;
+}
+.item-data{
+  
+  font-size: 10px;
+  margin: 80px 20px 30px 0px;
+}
+.productive-item
+{
+  display: flex;
+  justify-content: space-around;
+
+}
+/*newsletter/*/
+.touch{
+  display: flex;
+  justify-content: space-between;
+  margin: 90px;
+  
+}
+.button{
+  background-color: #4E47FF;
+  
+  color: white;
+  padding: 20px 32px;
+  margin: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: box;
+  font-size: 16px;
+  border-radius: 10px;
 }

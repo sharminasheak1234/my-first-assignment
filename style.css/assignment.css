@@ -6,9 +6,6 @@ body{
   background-image: url("Hero-bg.png");
  }
 
-h3{
-    color: #4E47FF;
-}
 nav{
     display:flex;
     align-items: center;
@@ -33,6 +30,7 @@ nav{
     align-items: center;
     margin: 50px 150px 50px 200px;
     padding: 50px;
+    color: #4E47FF;
     font-size: 1em;
 
 }
@@ -51,6 +49,7 @@ nav{
 
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
+  color: blue;
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings:
@@ -129,6 +128,9 @@ background-color: #4E47FF;
   margin: 90px;
   
 }
+.touch-form{
+  margin: 10px 20px 30px 40px;
+}
 .button{
   background-color: #4E47FF;
   
@@ -140,4 +142,46 @@ background-color: #4E47FF;
   display: box;
   font-size: 16px;
   border-radius: 10px;
+}
+/*FOOTER*/
+.footer-font{
+  font-style: normal;
+  font-size: 4em;
+  font-weight: bolder;
+  color: blue;
+  font-style: normal;
+  font-weight: bolder;    
+ margin: 20px 10px 30px 150px;
+}
+
+.footer-clm{
+ 
+  align-items: center;
+    margin: 50px 50px 70px 100px;
+    padding: 10px 80px;
+    font-size: 1em;
+
+}
+.footer p{
+  font-size: 10px;
+  color: black;
+}
+.footer-a{
+  display: flex;
+  margin: 10px 70px 40px 120px;
+ justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+
+}
+/*user's feedback section*/
+
+.feedback{
+  display: flex;
+  justify-content: space-between;
+}
+
+.avater{
+  display: flex;
+  
 }
